@@ -82,6 +82,7 @@ Then click on the gear icon to configure a launch.json file, selecting **Chrome*
       {
         "identifier": "ng serve",
         "type": "npm",
+        "isBackground": true,
         "script": "start",
         "group": {
           "kind": "build",
