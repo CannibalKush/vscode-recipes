@@ -6,7 +6,7 @@ The recipe assumes that you have a recent version of [Docker](https://www.docker
 
 You can either follow the manual steps in the next section or you can 'clone' the setup from a repository:
 ```sh
-git clone https://github.com/weinand/vscode-recipes.git
+git clone https://github.com/Microsoft/vscode-recipes.git
 cd vscode-recipes/Docker-TypeScript
 npm install
 code .
@@ -120,7 +120,7 @@ But for a faster edit/compile/debug cycle we will use a more sophisticated appro
 Let's start with the 'watch' task by creating a `tasks.json` inside the `.vscode` folder:
 ```json
 {
-   "version": "0.1.0",
+  "version": "0.1.0",
   "tasks": [
     {
       "taskName": "tsc-watch",
